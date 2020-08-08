@@ -1,4 +1,4 @@
-# Recal
+# ReCal
 This is an application that keeps track users that collect dispossible masks from an institution and rewards them when they dispose their used masks in designated locations.
 
 The application ensures there is no person to person contact by making use of a qrcode scanning feature which also add to the speed and efficiency of using the application since the client has to perform only one action of opening the scanner.
