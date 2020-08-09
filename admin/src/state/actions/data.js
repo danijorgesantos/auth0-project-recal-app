@@ -35,7 +35,6 @@ export const getQrCodeReturn = () => async dispatch => {
 
 // Get Qr Code return number --> return
 export const getUsersCount = () => async dispatch => {
-  console.log('getUsersdata called action')
   try {
     const res = await axios.get('https://recollect0.herokuapp.com/users/');
     dispatch({
