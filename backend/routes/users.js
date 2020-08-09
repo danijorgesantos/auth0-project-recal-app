@@ -6,7 +6,9 @@ const jwt=require('jsonwebtoken');
 const checkAuth=require('../middleware/check-auth');
 const http=require("http");
 var url  = require('url');
-
+// Load input validation
+const validateRegisterInput = require("../validation/register");
+const validateLoginInput = require("../validation/login");
 
 //get the user model schema
 const User=require('../models/user');
@@ -178,7 +180,7 @@ const { errors, isValid } = validateLoginInput(req.body);
                 userId:user[0]._id
               },
               process.env.JWT_KEY,
-        
+
             {
               expiresIn:'72h'
             },
