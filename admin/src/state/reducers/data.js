@@ -6,8 +6,6 @@ import {
 const initialState = {
   numberQrCodeCollect: '0',
   numberQrCodeReturn: '0',
-  loadedCollect: false,
-  loadedReturn: false,
   error: {}
 };
 
