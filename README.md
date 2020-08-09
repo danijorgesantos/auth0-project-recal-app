@@ -5,7 +5,7 @@ The application ensures there is no person to person contact by making use of a 
 
 ## Technologies Used
 <ul>
-  <li>MongoDB (AWS server)</li>
+  <li>MongoDB ( AWS server )</li>
   <li>Express.js</li>
   <li>React.js</li>
   <li>Node.js</li>
