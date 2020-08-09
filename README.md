@@ -23,8 +23,6 @@ The application ensures there is no person to person contact by making use of a 
 #### Android
 https://drive.google.com/file/d/1unlk40ZvbruTjugu9BUrk0XCT0Kg0NBX/view?usp=sharing
 
-### Web Client (Admin App)
-https://reverent-dijkstra-27f01b.netlify.app/
-or
+### Web Client (Admin App) Vercel
 https://gatsby-auth0-redux.vercel.app/account
 
